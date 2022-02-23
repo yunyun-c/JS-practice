@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('https://images.pexels.com/photos/10507894/pexels-photo-10507894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(30px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
