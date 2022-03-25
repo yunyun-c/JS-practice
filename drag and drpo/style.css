@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.empty {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: solid 3px whitesmoke;
+    background: white;
+}
+
+.fill {
+    background-image: url('https://images.pexels.com/photos/11511204/pexels-photo-11511204.jpeg?cs=srgb&dl=pexels-figen-kokol-11511204.jpg&fm=jpg');
+    height: 145px; 
+    cursor: pointer;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+.hovered {
+    background-color: #333;
+    border-color: white;
+    border-style: dashed;
+}
+
+@media(max-width: 880px) {
+    body {
+        flex-direction: column;
+    }
+}
