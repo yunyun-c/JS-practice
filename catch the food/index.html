@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catch The Food</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch The Food</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+        <h1>What is your "favorite" food?</h1>
+        <ul class="food-list">
+            <li>
+                <button class="choose-food-btn">
+                    <p>Sushi</p>
+                    <img src="https://img.icons8.com/bubbles/100/000000/kawaii-sushi.png" alt="kawaii sushi icon from icons8"/>
+                </button>
+            </li>
+
+            <li>
+                <button class="choose-food-btn">
+                    <p>Taco</p>
+                    <img src="https://img.icons8.com/bubbles/100/000000/kawaii-taco.png" alt="kawaii taco icon from icons8"/>
+                </button>
+            </li>
+
+            <li>
+                <button class="choose-food-btn">
+                    <p>Steak</p>
+                    <img src="https://img.icons8.com/bubbles/100/000000/kawaii-steak.png" alt="kawaii steak icon from icons8"/>
+                </button>
+            </li>
+
+            <li>
+                <button class="choose-food-btn">
+                    <p>Ice Cream</p>
+                    <img src="https://img.icons8.com/bubbles/100/000000/kawaii-ice-cream.png" alt="kawaii ice cream icon from icons8"/>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Did you have enough of food?<br>
+            You are playing an impossible game!!
+        </h5>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
